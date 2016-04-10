@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kasingj.eurocapitals.MainActivity"
+    android:background="#58cfa7">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#304ffe"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:rowCount="8"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:orientation="vertical"
+        android:columnCount="4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:text=""
+            android:id="@+id/countryView"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:background="#e35757"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp"
+            android:elegantTextHeight="false"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/capitalView"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#55de97" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nextButton"
+            android:id="@+id/nextButton"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showButton"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:text="@string/showCapital"
+            android:textSize="20dp"/>
+    </GridLayout>
+</RelativeLayout>

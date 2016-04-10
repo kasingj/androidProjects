@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EuroCapitals</string>
+    <string name="country">London</string>
+    <string name="capital">England</string>
+    <string name="nextButton">next</string>
+    <string name="showCapital">Show</string>
+</resources>
