@@ -19,56 +19,85 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="false"
-        android:rowCount="8"
+        android:rowCount="9"
         android:stretchMode="columnWidth"
         android:numColumns="auto_fit"
         android:orientation="vertical"
-        android:columnCount="4">
+        android:columnCount="4"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView3"
+            android:autoText="false"
+            android:text="@string/question"
+            android:background="#dacf5a"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="monospace"
+            android:textSize="30dp"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="400dp"
+            android:layout_height="350dp"
             android:text=""
             android:id="@+id/countryView"
-            android:layout_row="0"
+            android:layout_row="1"
             android:layout_column="0"
             android:background="#e35757"
             android:gravity="center_vertical|center_horizontal"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:elegantTextHeight="false"
-            android:textSize="100dp"/>
+            android:textSize="65dp"
+            android:fontFamily="monospace"
+            android:ellipsize="start"/>
 
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="70dp"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/capitalView"
-            android:layout_row="1"
-            android:layout_column="0"
-            android:layout_gravity="center_horizontal"
-            android:layout_margin="10dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:background="#55de97" />
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nextButton"
-            android:id="@+id/nextButton"
             android:layout_row="2"
             android:layout_column="0"
-            android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:textSize="20dp"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="0dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="#55de97"
+            android:ellipsize="start"
+            android:textSize="35dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="monospace"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
             android:id="@+id/showButton"
-            android:layout_row="3"
+            android:layout_row="4"
             android:layout_column="0"
             android:layout_gravity="center"
             android:text="@string/showCapital"
-            android:textSize="20dp"
-            android:layout_margin="10dp"/>
+            android:textSize="30dp"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="@string/nextButton"
+            android:id="@+id/nextButton"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="30dp"
+            android:fontFamily="monospace"/>
     </GridLayout>
 </RelativeLayout>
