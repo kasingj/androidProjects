@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.student.artistoranimator.painterOrAnimator"
+    android:background="#ecc7e6c1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/question"
+        android:id="@+id/question"
+        android:layout_gravity="center_vertical"
+        android:textSize="22dp"
+        android:textAlignment="gravity"
+        android:layout_weight="1"
+        android:background="#95c5b7"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#e5bbbb"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You&apos;re a painter obviously, how would you like to do some finger painting?"
+            android:id="@+id/textView"
+            android:layout_gravity="center_vertical"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:textAlignment="center"
+            android:textSize="22dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let&apos;s paint!"
+            android:id="@+id/paintButton"
+            android:layout_gravity="center"
+            android:foregroundGravity="center_vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#95c5b7"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clearly you&apos;re an animator, how would you like to animate some cars?"
+            android:id="@+id/textView3"
+            android:textAlignment="center"
+            android:textSize="22dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let&apos;s Animate!"
+            android:id="@+id/animateButton"
+            android:layout_gravity="center"
+            android:foregroundGravity="center|center_vertical" />
+    </LinearLayout>
+
+</LinearLayout>

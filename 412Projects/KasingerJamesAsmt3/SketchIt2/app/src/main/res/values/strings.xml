@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SketchIt2</string>
+    <string name="draw">draw!</string>
+    <string name="photo">take photo!</string>
+</resources>

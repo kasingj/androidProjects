@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ArtistOrAnimator</string>
+    <string name="question">Are you more of a painter or an animator?</string>
+</resources>

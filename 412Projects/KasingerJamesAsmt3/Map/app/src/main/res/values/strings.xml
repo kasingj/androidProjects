@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Museum Finder</string>
+    <string name="title_activity_maps">Museum Finder</string>
+    <string name="instructions">The following activity will demonstrate the usage of a google maps fragment</string>
+    <string name="drawPath">Draw Path</string>
+    <string name="clearMap">Clear Map</string>
+    <string name="howTo">Usage</string>
+    <string name="location">Location</string>
+    <string-array name="museumArray">
+        <item>Nelson-Atkins Museum of Art</item>
+        <item>National Museum of the Marine Corps</item>
+        <item>Metropolitan museum of art</item>
+        <item>National Museum of the United States Air Force</item>
+        <item>National World War I Museum</item>
+        <item>The Cleveland Museum of Art</item>
+        <item>High Scores Arcade</item>
+        <item>Oklahoma City National Memorial and Museum</item>
+        <item>Detroit Institute of Art</item>
+        <item>Huntington Library Art Collections and Botanical Gardens</item>
+        <item>City Museum St Louis</item>
+        <item>Nethercutt Museum</item>
+        <item>The Getty Center</item>
+        <item>National Naval Aviation Museum</item>
+        <item>Chicago Botanic Garden</item>
+        <item>Art institute of Chicago</item>
+        <item>USS Midway Museum</item>
+        <item>Space Shuttle Endeavor</item>
+        <item>Virginia Museum of Fine arts</item>
+        <item>9/11 Memorial Museum</item>
+    </string-array>
+
+</resources>

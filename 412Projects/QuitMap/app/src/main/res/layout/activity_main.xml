@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.student.quitmap.MainActivity"
+    android:background="@color/button_material_dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/craved"
+        android:layout_margin="40dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:backgroundTint="@color/bright_foreground_disabled_material_dark"
+        android:theme="@style/Base.Widget.AppCompat.ActionButton">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To the map"
+            android:id="@+id/toMap"
+            android:layout_margin="20dp"
+            android:background="@color/button_material_light"
+            android:padding="4dp"
+            android:minWidth="135dp"
+            android:fontFamily="@string/common_google_play_services_enable_button"
+            android:theme="@style/Base.Widget.AppCompat.ActionButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recent entries"
+            android:id="@+id/recent"
+            android:layout_margin="20dp"
+            android:background="@color/button_material_light"
+            android:padding="4dp"
+            android:minWidth="135dp"
+            android:fontFamily="@string/common_google_play_services_enable_button"
+            android:theme="@android:style/MediaButton.Play" />
+
+    </LinearLayout>
+
+</LinearLayout>

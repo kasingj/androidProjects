@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:minHeight="400dp"
+    android:minWidth="500dp"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:layout_gravity="center" android:orientation="vertical"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#6ce05d5d">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/craved"
+        android:focusableInTouchMode="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/bright_foreground_disabled_material_dark">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:id="@+id/contentType">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I resisted"
+                    android:id="@+id/iresist"
+                    android:checked="false"
+                    android:textSize="30dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I am craving"
+                    android:id="@+id/icrave"
+                    android:checked="false"
+                    android:textSize="30dp" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I smoked"
+                    android:id="@+id/ismoked"
+                    android:checked="false"
+                    android:textSize="30dp" />
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/diaryContent"
+                android:hint="There there, what happened?"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:layout_margin="20dp"
+                android:background="@color/bright_foreground_disabled_material_dark" />
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/saveDiary"
+            android:layout_gravity="center_horizontal"
+            android:theme="@style/Widget.AppCompat.Button.Borderless.Colored" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WorldCapitals</string>
+    <string name="country">London</string>
+    <string name="capital">England</string>
+    <string name="nextButton">next</string>
+    <string name="showCapital">Show</string>
+    <string name="question">What is the capital of:</string>
+    <string name="european">European Capitals</string>
+    <string name="UnitedStatesCapitals">United States Capitals</string>
+    <string name="southAmerica">South American capitals</string>
+    <string name="canadian">Canadian Province Capitals</string>
+    <string name="choose">Study!</string>
+    <string name="africa">African Country Capitals</string>
+    <string name="delete">Delete</string>
+    <string name="reset">Reset</string>
+
+    <string-array name="radio_options">
+        <item></item>
+        <item>Size of European deck: 48 cards!</item>
+        <item>Size of United States deck: 50 cards!</item>
+        <item>Size of South American deck: 12 cards!</item>
+        <item>Size of Canadian deck: 14 cards!</item>
+        <item>Size of African deck: 53 cards!</item>
+
+    </string-array>
+</resources>
